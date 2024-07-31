@@ -16,12 +16,12 @@ spec:
     spec:
       containers:
       - name: text-generation-app
-        image: gcr.io/iac1-424123/gemini1:latest
+        image: gcr.io/$PROJECT_ID/text-generation-app:$SHORT_SHA
         ports:
         - containerPort: 5000
         env:
         - name: API_KEY
-          value: "AIzaSyC9uXy92lQX2knCanapxwVfEHRixkpG8rM"
+          value: "AIzaSyCaRZ1VYHRrvfIsxG4nC9-w-6kLR7cTD1E"
 ---
 apiVersion: v1
 kind: Service

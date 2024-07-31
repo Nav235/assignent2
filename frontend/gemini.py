@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-API_KEY = "AIzaSyC9uXy92lQX2knCanapxwVfEHRixkpG8rM"
+API_KEY = "AIzaSyCaRZ1VYHRrvfIsxG4nC9-w-6kLR7cTD1E"
 genai.configure(api_key=API_KEY)
 
 HTML_CONTENT = '''
